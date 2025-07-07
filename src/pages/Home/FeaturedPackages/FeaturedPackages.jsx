@@ -2,7 +2,7 @@ import React, { use } from "react";
 import { Link } from "react-router";
 import { Typewriter } from "react-simple-typewriter";
 import AuthContext from "../context/AuthContext";
-import PackageCard from "./PackageCard";
+import PackageCard from "../../PackageCard/PackageCard";
 import FeaturedPackageCard from "./FeaturedPackageCard";
 import TextAnimation from "../animation/TextAnimation";
 

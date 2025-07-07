@@ -3,7 +3,7 @@ import FeaturedPackages from "./shared/FeaturedPackages";
 import { Suspense, use } from "react";
 import AuthContext from "./context/AuthContext";
 import GalleryCarousel from "./shared/GalleryCarousel";
-import Loading from "./Loading";
+import Loading from "./Loading/Loading";
 import WhyChooseUs from "./shared/WhyChooseUs";
 
 const featuredPackagesPromise = fetch(

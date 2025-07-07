@@ -1,7 +1,7 @@
 import React, { Suspense, use, useEffect, useState } from "react";
 import AuthContext from "../context/AuthContext";
-import PackageCard from "../shared/PackageCard";
-import Loading from "../Loading";
+import PackageCard from "../../pages/PackageCard/PackageCard";
+import Loading from "../Loading/Loading";
 
 /* const allPackagesPromise = fetch("http://localhost:3000/packages").then((res) =>
   res.json()
