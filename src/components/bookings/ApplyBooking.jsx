@@ -1,8 +1,8 @@
 import React, { use, useState } from "react";
 import { useLoaderData, useNavigate, useParams } from "react-router";
-import AuthContext from "../context/AuthContext";
 import axios from "axios";
 import Swal from "sweetalert2";
+import AuthContext from "../../context/AuthContext/AuthContext";
 
 const ApplyBooking = () => {
   const data = useLoaderData();

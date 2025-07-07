@@ -1,8 +1,8 @@
 import React, { use, useState } from "react";
 import { FcGoogle } from "react-icons/fc";
 import { Link, useNavigate } from "react-router";
-import AuthContext from "./context/AuthContext";
 import toast from "react-hot-toast";
+import AuthContext from "../../../context/AuthContext/AuthContext";
 
 const LogIn = () => {
   const [errorMessage, setErrorMessage] = useState("");

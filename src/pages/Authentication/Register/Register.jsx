@@ -1,7 +1,8 @@
 import React, { use, useState } from "react";
 import { Link, useNavigate } from "react-router";
-import AuthContext from "./context/AuthContext";
+
 import toast from "react-hot-toast";
+import AuthContext from "../../../context/AuthContext/AuthContext";
 
 const Register = () => {
   const { createUser, setUser, updateUser, setIsLoading, theme } =

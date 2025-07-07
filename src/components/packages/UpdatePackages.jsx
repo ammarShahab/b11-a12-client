@@ -1,8 +1,8 @@
 import React, { use, useState } from "react";
-import AuthContext from "../context/AuthContext";
 import { useLoaderData, useNavigate } from "react-router";
 import axios from "axios";
 import Swal from "sweetalert2";
+import AuthContext from "../../context/AuthContext/AuthContext";
 
 const UpdatePackages = () => {
   const { user, theme } = use(AuthContext);

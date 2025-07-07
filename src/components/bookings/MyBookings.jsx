@@ -1,7 +1,7 @@
 import React, { use, useEffect, useState } from "react";
-import AuthContext from "../context/AuthContext";
 import axios from "axios";
 import Swal from "sweetalert2";
+import AuthContext from "../../context/AuthContext/AuthContext";
 
 const MyBookings = () => {
   const { user, theme } = use(AuthContext);

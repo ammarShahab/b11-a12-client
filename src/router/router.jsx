@@ -1,13 +1,12 @@
 import React from "react";
 import { createBrowserRouter } from "react-router";
 import RootLayout from "../layouts/RootLayout";
-import Home from "../components/Home";
 import AddPackage from "../components/packages/AddPackage";
 import LogIn from "../pages/Authentication/LogIn/LogIn";
 import Register from "../pages/Authentication/Register/Register";
 import AuthLayout from "../layouts/AuthLayout";
 import Error404 from "../pages/Error404/Error404";
-import PrivateRouter from "../components/provider/PrivateRouter";
+
 import Loading from "../components/Loading/Loading";
 import PrivacyPolicy from "../components/PrivacyPolicy";
 import AllPackages from "../components/packages/AllPackages";
@@ -17,6 +16,8 @@ import UpdatePackages from "../components/packages/UpdatePackages";
 import ApplyBooking from "../components/bookings/ApplyBooking";
 import MyBookings from "../components/bookings/MyBookings";
 import AboutUs from "../components/AboutUs";
+import Home from "../pages/Home/Home/Home";
+import PrivateRouter from "../routes/PrivateRouter";
 
 const router = createBrowserRouter([
   {

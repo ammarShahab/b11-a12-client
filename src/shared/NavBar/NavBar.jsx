@@ -1,9 +1,9 @@
 import React, { use } from "react";
 import { Link, NavLink, useNavigate } from "react-router";
 import logo from "../../assets/images/logo.png";
-import AuthContext from "../context/AuthContext";
 import toast from "react-hot-toast";
 import { LuMoon, LuSun } from "react-icons/lu";
+import AuthContext from "../../context/AuthContext/AuthContext";
 
 const NavBar = () => {
   const { user, logOut, setUser, theme, setTheme } = use(AuthContext);

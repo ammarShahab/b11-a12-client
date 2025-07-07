@@ -1,6 +1,6 @@
 import React, { use } from "react";
 import { Link, useLoaderData } from "react-router";
-import AuthContext from "./context/AuthContext";
+import AuthContext from "../context/AuthContext/AuthContext";
 
 const PackageDetails = () => {
   const tourPackage = useLoaderData();

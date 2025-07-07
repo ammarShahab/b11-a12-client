@@ -1,10 +1,10 @@
-import Banner from "./shared/Banner";
-import FeaturedPackages from "./shared/FeaturedPackages";
+import Banner from "../Banner/Banner";
 import { Suspense, use } from "react";
-import AuthContext from "./context/AuthContext";
-import GalleryCarousel from "./shared/GalleryCarousel";
-import Loading from "./Loading/Loading";
-import WhyChooseUs from "./shared/WhyChooseUs";
+import FeaturedPackages from "../FeaturedPackages/FeaturedPackages";
+import AuthContext from "../../../context/AuthContext/AuthContext";
+import GalleryCarousel from "../GalleryCarousel/GalleryCarousel";
+import Loading from "../../../components/Loading/Loading";
+import WhyChooseUs from "../WhyChooseUs/WhyChooseUs";
 
 const featuredPackagesPromise = fetch(
   "https://b11a11-server-side-ashahab007.vercel.app/featured-packages"

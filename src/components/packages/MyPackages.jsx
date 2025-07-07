@@ -2,7 +2,7 @@ import React, { use, useState } from "react";
 import { useLoaderData } from "react-router";
 import Swal from "sweetalert2";
 import MyPackagesTable from "./MyPackagesTable";
-import AuthContext from "../context/AuthContext";
+import AuthContext from "../../context/AuthContext/AuthContext";
 
 const MyPackages = () => {
   const data = useLoaderData();

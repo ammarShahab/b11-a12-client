@@ -2,8 +2,9 @@ import React, { useContext } from "react";
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import logo from "../../assets/images/logo.png";
-import AuthContext from "../context/AuthContext";
+
 import { Link } from "react-router";
+import AuthContext from "../../context/AuthContext/AuthContext";
 
 const Footer = () => {
   const { theme, setTheme } = useContext(AuthContext);
