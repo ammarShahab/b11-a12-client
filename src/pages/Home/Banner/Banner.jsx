@@ -1,5 +1,5 @@
 import React from "react";
-import tourismBanner_1 from "../../assets/images/tourism banner_1.jpg";
+import tourismBanner_1 from "../../../assets/images/tourism banner_1.jpg";
 import { Link } from "react-router";
 
 const Banner = () => {

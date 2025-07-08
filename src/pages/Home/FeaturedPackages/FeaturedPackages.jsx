@@ -1,10 +1,10 @@
 import React, { use } from "react";
 import { Link } from "react-router";
-import { Typewriter } from "react-simple-typewriter";
-import AuthContext from "../context/AuthContext";
+
 import PackageCard from "../../PackageCard/PackageCard";
 import FeaturedPackageCard from "./FeaturedPackageCard";
-import TextAnimation from "../animation/TextAnimation";
+
+import AuthContext from "../../../context/AuthContext/AuthContext";
 
 const FeaturedPackages = ({ featuredPackagesPromise }) => {
   const { setIsLoading, theme } = use(AuthContext);
@@ -25,7 +25,7 @@ const FeaturedPackages = ({ featuredPackagesPromise }) => {
       }  dark:bg-zinc-600`}
     >
       <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-6 font-bitter text-center text-[#DCC6E0] dark:text-white">
-        <TextAnimation></TextAnimation>
+        {/* <TextAnimation></TextAnimation> */}
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 ">
         {featuredPackages.map((tourPackage) => (

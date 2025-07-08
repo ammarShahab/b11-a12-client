@@ -2,7 +2,7 @@ import React, { use } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import AuthContext from "../context/AuthContext";
+import AuthContext from "../../../context/AuthContext/AuthContext";
 
 const WhyChooseUs = () => {
   const { theme } = use(AuthContext);

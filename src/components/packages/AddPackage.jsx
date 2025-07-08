@@ -1,6 +1,6 @@
 import React, { use } from "react";
 import Swal from "sweetalert2";
-import AuthContext from "../context/AuthContext";
+import AuthContext from "../../context/AuthContext/AuthContext";
 
 const AddPackage = () => {
   const { user, theme } = use(AuthContext);

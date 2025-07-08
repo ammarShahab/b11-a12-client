@@ -3,8 +3,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { motion } from "motion/react";
-import AuthContext from "../context/AuthContext";
-import TextAnimationGallery from "../animation/TextAnimationGallery";
+
+import AuthContext from "../../../context/AuthContext/AuthContext";
+import TextAnimationGallery from "../../../components/animation/TextAnimationGallery";
 
 const GalleryCarousel = () => {
   const { theme } = use(AuthContext);

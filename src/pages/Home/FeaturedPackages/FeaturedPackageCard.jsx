@@ -1,7 +1,8 @@
 import React, { use } from "react";
-import AuthContext from "../context/AuthContext";
+
 import { Link } from "react-router";
 import { motion } from "motion/react";
+import AuthContext from "../../../context/AuthContext/AuthContext";
 
 const FeaturedPackageCard = ({ tourPackage }) => {
   const { setIsLoading, theme } = use(AuthContext);
